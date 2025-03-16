@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+
+      <picture>
+        <source
+        srcset="../images/image-product-mobile.jpg"
+        media="(max-width: 768px)"
+        >
+        <img src="../images/image-product-desktop.jpg"  alt="perfume" class="image">
+      </picture>
+
+      <div class="info">
+        <div class="desc-container">
+          <div class="category">PERFUME</div>
+          <div class="title">Gabrielle Essence Eau De Parfum</div>
+          <div class="desc">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</div>
+        </div>
+        <div class="price-container">
+          <div class="acc-price">$149.99</div>
+          <div class="markdown">$169.99</div>
+        </div>
+        <button class="purchase"><img src="../images/icon-cart.svg" alt="cart"> <div class="button-text">Add to Cart</div></button>
+    </div>
+  </main>
+</body>
+</html>
